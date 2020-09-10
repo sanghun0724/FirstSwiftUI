@@ -10,7 +10,56 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            HStack{
+                Text("1!")
+                    .fontWeight(.bold)
+                    .font(.largeTitle)
+                    .font(.system(size: 60))
+                
+            Text("2!")
+                .fontWeight(.bold)
+                .font(.largeTitle)
+                .font(.system(size: 60))
+                Text("3!")
+                          .fontWeight(.bold)
+                          .font(.largeTitle)
+                          .font(.system(size: 60))
+            }.background(Color.red)
+            HStack{
+                Text("1!")
+                    .fontWeight(.bold)
+                    .font(.largeTitle)
+                    .font(.system(size: 60))
+                
+            Text("2!")
+                .fontWeight(.bold)
+                .font(.largeTitle)
+                .font(.system(size: 60))
+                Text("3!")
+                          .fontWeight(.bold)
+                          .font(.largeTitle)
+                          .font(.system(size: 60))
+            }.background(Color.red)
+            HStack{
+                Text("1!")
+                    .fontWeight(.bold)
+                    .font(.largeTitle)
+                    .font(.system(size: 60))
+                
+            Text("2!")
+                .fontWeight(.bold)
+                .font(.largeTitle)
+                .font(.system(size: 60))
+                Text("3!")
+                          .fontWeight(.bold)
+                          .font(.largeTitle)
+                          .font(.system(size: 60))
+            }.background(Color.red)
+
+        }.background(Color.yellow)
+            
+        
     }
 }
 
